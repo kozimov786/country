@@ -73,7 +73,9 @@
        margin-left: auto;
        margin-right: auto;
   }
-  
+a{
+     text-decoration: none;
+}
   .site-top-container{
        display: flex;
        max-width: 1440px;
@@ -153,6 +155,7 @@ button,input:hover{
       display: grid;
       grid-template-columns: repeat(4,264px);
       gap: 75px;
+      grid-template-rows: repeat(2,336px);
       margin-bottom: 45px;
  }
  .info-country{
